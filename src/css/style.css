@@ -66,7 +66,7 @@ img {
 
 .content {
     max-width: 900px;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 .content-wrapper_imgtext {
@@ -120,43 +120,313 @@ img {
     margin: 0 auto;
 }
 
-.newsnewsletter-form__input{
+.newsnewsletter-form__input {
     width: 370px;
     border: none;
     outline: 0;
     font-size: 14px;
-    background-color:#F0F0F0;
+    background-color: #F0F0F0;
 }
 
-.newsnewsletter-form__button{
-    border:none;
+.newsnewsletter-form__button {
+    border: none;
 }
 
-.newsletter-hr{
+.newsletter-hr {
     margin: 0 auto;
     width: 410px;
     height: 1px;
-    background-color:#000000;
+    background-color: #000000;
     margin-bottom: 75px;
     margin-top: 8px;
 }
+
 /*******newsletter********/
 
 /*******loadmore********/
-.loadmore{
+.loadmore {
     margin: 0 auto;
     margin-top: 160px;
     max-width: 1120px;
 }
 
-.loadmore-form__button{
+.loadmore-form__button {
     display: block;
     margin: 200px auto;
     width: 160px;
     height: 60px;
     width: 160px;
-    color:#626262;
+    color: #626262;
     font-size: 20px;
-    
+
 }
+
 /*******loadmore********/
+
+/*****adaptability********/
+@media (max-width: 575.98px) {
+    /*******header********/
+    .header-content__img {
+        margin: 10px 0 10px 10px;
+    }
+
+    .header-content__nav {
+        margin: 10px 0 10px 15px;
+    }
+
+    .header-content__linc {
+        font-size: 9px;
+        padding-left: 5px;
+    }
+
+    .header-container {
+        margin-bottom: 15px;
+    }
+    /*******header********/
+    /*******content********/
+    .container-row_space-between {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-wrapper_imgtext {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .content-text__hthree {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #626262;
+    }
+
+    .content-text__block {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .content-text__comment {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .content-wrapper__p {
+        font-size: 14px;
+    }
+    /*******content********/
+    /*******newsletter********/
+    .newsletter {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .newsletter-text__hthree {
+        margin: 50px auto;
+        font-size: 20px;
+    }
+
+    .newsnewsletter-form__input {
+        width: 300px;
+    }
+
+    .newsletter-hr {
+        width: 340px;
+        margin-top: 5px;
+    }
+    /*******newsletter********/
+    /*******loadmore********/
+    .loadmore {
+        margin-top: 120px;
+    }
+
+    .loadmore-form__button {
+        margin: 100px auto;
+    }
+    /*******loadmore********/
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*******header********/
+    .header-content__img {
+        margin: 20px 0 20px 10px;
+    }
+
+    .header-content__nav {
+        margin: 20px 0 20px 70px;
+    }
+
+    .header-content__linc {
+        font-size: 10px;
+        padding-left: 40px;
+    }
+
+    .header-container {
+        margin-bottom: 20px;
+    }
+
+    /*******header********/
+    /*******content********/
+    .container-row_space-between {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-wrapper_imgtext {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .content-text__hthree {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #626262;
+    }
+
+    .content-text__block {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .content-text__comment {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .content-wrapper__p {
+        font-size: 14px;
+    }
+
+    /*******content********/
+    /*******newsletter********/
+    .newsletter {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .newsletter-text__hthree {
+        margin: 50px auto;
+        font-size: 20px;
+    }
+
+    .newsnewsletter-form__input {
+        width: 300px;
+    }
+
+    .newsletter-hr {
+        width: 340px;
+        margin-top: 5px;
+    }
+
+    /*******newsletter********/
+    /*******loadmore********/
+    .loadmore {
+        margin-top: 20px;
+    }
+
+    .loadmore-form__button {
+        margin: 50px auto;
+    }
+    /*******loadmore********/
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*******header********/
+    .header-content__img {
+        margin: 20px 0 20px 10px;
+    }
+
+    .header-content__nav {
+        margin: 20px 0 20px 70px;
+    }
+
+    .header-content__linc {
+        font-size: 10px;
+        padding-left: 40px;
+    }
+
+    .header-container {
+        margin-bottom: 20px;
+    }
+
+    /*******header********/
+    /*******content********/
+    .container-row_space-between {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-wrapper_imgtext {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .content-text__hthree {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #626262;
+    }
+
+    .content-text__block {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+    .content-text__comment {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .content-wrapper__p {
+        font-size: 14px;
+    }
+
+    /*******content********/
+    /*******newsletter********/
+    .newsletter {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .newsletter-text__hthree {
+        margin: 50px auto;
+        font-size: 20px;
+    }
+
+    .newsnewsletter-form__input {
+        width: 300px;
+    }
+
+    .newsletter-hr {
+        width: 340px;
+        margin-top: 5px;
+    }
+
+    /*******newsletter********/
+    /*******loadmore********/
+    .loadmore {
+        margin-top: 20px;
+    }
+
+    .loadmore-form__button {
+        margin: 50px auto;
+    }
+
+    /*******loadmore********/
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*******header********/
+    .header-content__img {
+        margin: 50px 0 70px 0;
+    }
+
+    .header-content__nav {
+        margin: 50px 0 50px 150px;
+    }
+    /*******header********/
+}
+@media (min-width: 1200px) and (max-width: 1409.98px) {}
